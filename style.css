@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* Navbar css */
+
+.main-logo{
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: 'Salsa', cursive;
+    display: inline-block;
+    margin-left: 70px;
+}
+.nav-links li{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+    font-family: 'Public Sans', sans-serif;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav { 
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+/* Carousel css */
+
+.carousel{
+    width:90%;
+    height: 600px;
+    margin-top: 200px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 2rem;
+}
+.btns{
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.btn1,
+.btn2{
+    font-size: 30px;
+    color: white;
+    border: none;
+    background-color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* CardImages css */
+
+.card{
+    position: relative;
+    height: 200px;
+    width: 350px;
+    margin-right: 1rem;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    position: absolute;
+    margin-left: 1rem;
+}
+.cards{
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.watching p{
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.watching{
+    margin-top: 2rem;
+    width: 100%
+}
+
+/* Recommended cards */
+
+.rec-cards{
+    width : 30vw;
+    height : 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.4rem;
+}
+.rec-card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+}
+
+.rec{
+    margin-top: 2rem;
+}
+.title{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* Originals css */
+
+.title-o{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 2rem;
+}
+.o-cards{
+    height:60vh;
+    width:25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.4rem;
+}
+.o-card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+}
